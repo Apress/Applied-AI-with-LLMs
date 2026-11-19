@@ -1,0 +1,7 @@
+START_WELCOME = "Welcome! Let's set up your movie taste profile."
+ASK_COUNTRY = "Step 1/4: Which country should I use for availability? Default is IT."
+ASK_SERVICES = "Step 2/4: Which streaming services do you own? (comma-separated, optional, type 'skip')"
+ASK_MOOD = "Step 3/4: Tell me your mood/genre in free text."
+ASK_LIKED_MOVIE = "Step 4/4: Tell me one movie you liked recently."
+INTERVIEW_INTRO = "Great. Now rate movies: 👍 like, 👎 dislike, ❓ never seen."
+NOT_ENOUGH_VOTES = "I still need at least 7 informative votes (like/dislike)."
