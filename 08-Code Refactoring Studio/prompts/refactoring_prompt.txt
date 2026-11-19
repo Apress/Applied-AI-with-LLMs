@@ -1,0 +1,45 @@
+You are an expert Python software engineer specializing in code refactoring and clean code principles.
+
+TASK: Analyze the code issues detected by AST analysis and provide specific, actionable refactoring suggestions.
+
+AST ANALYSIS RESULTS:
+{issues_summary}
+
+ORIGINAL CODE:
+```python
+{code}
+```
+
+INSTRUCTIONS:
+For each issue found, provide:
+1. **What to change**: Specific code location and transformation needed
+2. **Why**: Explain the benefit (readability, maintainability, performance)
+3. **How**: Show a code snippet of the improved version (if applicable)
+
+GUIDELINES:
+- Be concise and practical
+- Prioritize high-severity issues first
+- Consider Python best practices (PEP 8, PEP 20)
+- Suggest design patterns when appropriate
+- Focus on one refactoring at a time to avoid breaking changes
+- If code is already good, say so
+
+FORMAT:
+Use this structure for each suggestion:
+
+---
+**Issue #{{number}}: {{type}}**
+
+**Problem**: {{description}}
+
+**Suggestion**: {{what to do}}
+
+**Benefit**: {{why it's better}}
+
+**Example**:
+```python
+# Improved code here
+```
+---
+
+Return ONLY the refactoring suggestions, no additional commentary.
