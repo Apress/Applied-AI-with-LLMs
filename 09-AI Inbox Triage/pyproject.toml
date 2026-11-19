@@ -1,0 +1,17 @@
+[project]
+name = "mail-triager"
+version = "0.1.0"
+description = "Single-file AI inbox triage CLI using Gmail and LLMs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-api-python-client>=2.137.0",
+    "google-auth>=2.32.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.1",
+    "google-genai>=1.0",
+    "pydantic>=2.7.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.0",
+    "rich>=13.7.1",
+]
