@@ -1,0 +1,13 @@
+[project]
+name = "ai-tool-driven-accounting-demo"
+version = "0.1.0"
+description = "Minimal educational accounting chatbot demonstrating Gemini function calling with Python and SQLite."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0.1,<2.0",
+    "requests>=2.32.0,<3.0",
+]
+
+[tool.uv]
+package = false

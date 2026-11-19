@@ -1,0 +1,120 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Build and packaging artifacts
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# uv
+# uv.lock should normally be committed for applications
+.uv-cache/
+
+# Local databases and generated application data
+accounting.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Linux desktop trash
+.Trash-*
+
+# Test and coverage reports
+coverage.xml
+coverage.json
+junit.xml
+test-results/
+
+# Profiling
+*.prof
+*.lprof
+
+# Local runtime files
+*.pid
+*.pid.lock
+
+# Backups and archives generated locally
+*.bak
+*.backup
+*.orig
+
+# Local certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Do not ignore these repository files
+!.gitignore
+!pyproject.toml
+!uv.lock
+!README.md
